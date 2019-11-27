@@ -2,8 +2,8 @@
 layout: post
 title:  "Could we reinvent the charm of old cities"
 author: irene
-categories: [Jekyll, tutorial]
-image: home.jpg
+categories: [Jekyll, tutorial, travel]
+image: bucuresti.jpg
 tags: [sticky, travel]
 ---
 
