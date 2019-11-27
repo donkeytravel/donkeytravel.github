@@ -2,7 +2,7 @@
 layout: post
 title:  "Education must also train one for quick, resolute and effective thinking."
 categories: [ Jekyll, tutorial ]
-image: assets/images/3.jpg
+image: 3.jpg
 ---
 There are lots of powerful things you can do with the Markdown editor
 
@@ -33,7 +33,7 @@ There are two types of code elements which can be inserted in Markdown, the firs
 If you want to get really fancy, you can even add syntax highlighting using Rouge.
 
 
-![walking]({{ site.baseurl }}/assets/images/8.jpg)
+![walking]({{ site.baseurl }}/8.jpg)
 
 ## Reference lists
 

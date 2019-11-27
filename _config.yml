@@ -13,6 +13,8 @@ formspree: xgevveaw #create account in https://formspree.io
 include: ["_pages"]
 permalink: /:title/
 
+imagepath: /assets/images
+
 # Plugins
 plugins: 
   - jekyll-feed
@@ -46,7 +48,7 @@ defaults:
     values:
       layout: post
       author: irene
-      avatar: /assets/images/avatar1.jpg
+      avatar: /assets/images/avatar3.jpg
       
   # all pages
   - scope:
