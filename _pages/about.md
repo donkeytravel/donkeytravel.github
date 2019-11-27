@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: post
 title: About Donkey Travel
 permalink: /about
-comments: true
+author: irene
+comments: false
 ---
 
 Lorem markdownum potiunda maerenti vernum tantaeque arbore superstes vulnera, loqui voce inque auro, sed. Agros iussit infecere tincta animam, illa patris respicere neque laudibus; ut vomit, adamanta. Pari nec; hanc ordo illud naris terraeque, ferox dolendi.

@@ -1,11 +1,12 @@
 <div class="sticky-top sticky-top-offset">
+  <!-- <h4 class="font-weight-bold spanborder"><i class="fas fa-thumbs-up"></i> <span>Featured</span></h4> -->  
   <h4 class="font-weight-bold spanborder"><span>Featured</span></h4>  
   <ol class="list-featured">				
     {% for post in site.tags.featured %}                
     <li class="mb-4">
       <span>
         <h6 class="font-weight-bold">
-          <a href="{{site.baseurl}}{{ post.url }}" class="text-dark">{{ post.title }}</a>
+          <a href="{{site.baseurl}}{{post.url}}" class="text-dark">{{ post.title }}</a>
         </h6>
         <span class="d-block text-muted">
           In <span class="catlist">
@@ -19,20 +20,20 @@
     {% endfor %}   
   </ol><br>
 
-  <h4 class="font-weight-bold spanborder"><span><i class="fa fa-list text-danger"></i> Categories</span></h4>  
+  <!-- <h4 class="font-weight-bold spanborder"><span><i class="fa fa-list"></i> Categories</span></h4> -->  
+  <h4 class="font-weight-bold spanborder"><span>Categories</span></h4>  
   <ol class="list-featured">				
     {% for category in site.categories %}
-    <a class="sscroll text-danger" href="{{site.baseurl}}/categories.html#{{ category[0] | downcase }}">{{ category[0] | downcase }}</a><span class="sep"> | </span>
+    <a class="sscroll text-dark font-weight-bold" href="{{site.baseurl}}/categories.html#{{ category[0] | downcase }}"><i class="fa fa-list-alt text-danger"></i> {{ category[0] | capitalize }}</a><span class="sep"></span>
     {% endfor %}
   </ol><br>
 
-  <h4 class="font-weight-bold spanborder"><span><i class="fa fa-tag text-danger"></i> Tags</span></h4>  
+  <!-- <h4 class="font-weight-bold spanborder"><span><i class="fa fa-tag"></i> Tags</span></h4> -->  
+  <h4 class="font-weight-bold spanborder"><span>Tags</span></h4>  
   <ol class="list-featured">				
     {% for tag in site.tags %}
-    <a class="sscroll text-danger" href="{{site.baseurl}}/tags.html#{{ tag[0] | downcase }}">{{ tag[0] | downcase }}</a><span class="sep"> | </span>
+    <a class="sscroll btn btn-light btn-sm font-weight-bold" href="{{site.baseurl}}/tags.html#{{ tag[0] | downcase }}"><i class="fa fa-tag text-danger"></i> {{ tag[0] | downcase }}</a>
     {% endfor %}
   </ol>
 
 </div> 
-
-
