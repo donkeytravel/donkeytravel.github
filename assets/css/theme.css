@@ -671,16 +671,18 @@ article blockquote {
 	margin-left:0px;
 	font-style:italic;
 	position:relative;
+    color: grey;
 }
 article blockquote:before {
 	content:"“";
 	font-family:Georgia;
-	font-size:8rem;
+	font-size:7rem;
 	margin:-1rem 2rem 0 -3.9rem;
 	position:absolute;
 	opacity:1;
 	float:left;
 	line-height:1;
+    color: grey;
 }
 article:first-letter {
     font-family: Georgia,Times,"Times New Roman",serif;
