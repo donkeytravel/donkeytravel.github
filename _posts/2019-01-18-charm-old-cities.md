@@ -3,7 +3,7 @@ layout: post
 title:  "Could we reinvent the charm of old cities"
 author: irene
 categories: [Jekyll, tutorial, travel]
-image: bucuresti.jpg
+image: assets/images/bucuresti.jpg
 tags: [sticky, travel]
 ---
 

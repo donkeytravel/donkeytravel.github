@@ -13,8 +13,6 @@ formspree: xgevveaw #create account in https://formspree.io
 include: ["_pages"]
 permalink: /:title/
 
-imagepath: /assets/images
-
 # Plugins
 plugins: 
   - jekyll-feed

@@ -3,7 +3,7 @@ layout: post
 title:  "Powerful things you can do in Paris"
 author: irene
 categories: [ Jekyll, tutorial]
-image: paris.jpg
+image: assets/images/paris.jpg
 imageold: https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
 tags: [summer]
 ---
@@ -34,7 +34,7 @@ There are two types of code elements which can be inserted in Markdown, the firs
 If you want to get really fancy, you can even add syntax highlighting using Rouge.
 
 
-![walking]({{site.imagepath}}/8.jpg)
+![walking]({{ site.baseurl }}/assets/images/8.jpg)
 
 ## Reference lists
 

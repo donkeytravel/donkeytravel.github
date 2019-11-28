@@ -23,7 +23,7 @@ description: "Donkey Travel Productions is personal blog about traveling the glo
     <div class="col-md-6">
       <div class="card border-0 mb-4 box-shadow">   
         <a href="{{site.baseurl}}{{latest_post.url}}">
-          <div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}{{site.imagepath}}/{{ latest_post.image}}{% endif %}); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>     
+          <div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>     
         </a>
         <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
           <h2 class="h4 font-weight-bold">
@@ -56,7 +56,7 @@ description: "Donkey Travel Productions is personal blog about traveling the glo
         {% if second_post.image %}
         <div class="col-md-4">
           <a href="{{site.baseurl}}{{second_post.url}}">
-            <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{site.baseurl}}{{site.imagepath}}/{{ second_post.image }}{% endif %}" alt="{{ second_post.title }}">
+            <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}" alt="{{ second_post.title }}">
           </a>
         </div>
         {% endif %}                
@@ -83,7 +83,7 @@ description: "Donkey Travel Productions is personal blog about traveling the glo
         {% if third_post.image %}
         <div class="col-md-4">
           <a href="{{site.baseurl}}{{third_post.url}}">
-            <img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}{{site.imagepath}}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">
+            <img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">
           </a>
         </div>
         {% endif %}                
@@ -110,7 +110,7 @@ description: "Donkey Travel Productions is personal blog about traveling the glo
         {% if fourth_post.image %}
         <div class="col-md-4">
           <a href="{{site.baseurl}}{{fourth_post.url}}">
-            <img class="w-100" src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}{{site.imagepath}}/{{ fourth_post.image }}{% endif %}" alt="{{ fourth_post.title }}">
+            <img class="w-100" src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %}" alt="{{ fourth_post.title }}">
           </a>
         </div>
         {% endif %}                
@@ -148,7 +148,7 @@ description: "Donkey Travel Productions is personal blog about traveling the glo
           </p>
           <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Read More</a>
         </div>
-        <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}{{site.imagepath}}/{{ post.image }});">	
+        <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ post.image }});">	
         </div>
       </div>
     </div>
