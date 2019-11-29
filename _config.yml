@@ -6,7 +6,7 @@ favicon: 'assets/images/favicon.ico'
 # baseurl: '/mundana-theme-jekyll'
 baseurl: ''
 disqus: 'donkeytravel'
-email: 'itheologitou@gmail.com'
+email: 'info@donkeytravel.eu'
 # mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 formspree: xgevveaw #create account in https://formspree.io
 
@@ -23,11 +23,11 @@ plugins:
 authors:
     irene:
       name:           Irene
-      site:           https://donkeytravel.github.io
+      site:           https://www.donkeytravel.eu
       avatar:         /assets/images/avatar3.jpg
       bio:            "Hi, I am Irene, the author of Travel Donkey, the blog you're currently viewing. I hope you like it!"
-      email:          itheologitou@gmail.com
-      twitter:        https://twitter.com/donkeytravel
+      email:          info@donkeytravel.eu
+      twitter:        https://twitter.com/donkey_travel
 
     kyr:
       name:           Kyriakos
