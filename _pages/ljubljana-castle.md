@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Green Slovenia road trip 
-permalink: /slovenia
+permalink: /ljubljana-castle
 image: assets/images/Slovenia.jpg
 categories: travel
 tags: []
