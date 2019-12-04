@@ -1,3 +1,31 @@
+article {
+	/* font-size: 22px; //18px; //20px; */
+	/* line-height: 1.50; //1.86; */
+    /* font-family: 'Alegreya', serif; */
+}
+article p,article pre,article figure,article img,article blockquote,article iframed,article embed {
+	margin-bottom:1.5rem;
+}
+
+article blockquote:before {
+	content:"“";
+	font-family:Georgia;
+	font-size:7rem;
+	margin:-1rem 2rem 0 -3.9rem;
+	position:absolute;
+	opacity:1;
+	float:left;
+	line-height:1;
+    color: orange;
+}
+
+code {
+  font-size: 95%;
+  color: #ff0266;
+  word-break: break-word; }
+  a > code {
+    color: inherit; }
+
 .spoiler:hover {
     color: red;
     text-decoration: none;
