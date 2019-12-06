@@ -9,9 +9,6 @@ fields:
   name: title
   label: title
 - type: text
-  name: author
-  label: author
-- type: text
   name: categories
   label: categories
 - type: list
