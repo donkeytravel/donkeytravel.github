@@ -21,7 +21,7 @@ fields:
 - type: file
   name: image
   label: image
-  hidden: true
+  hidden: false
 - type: boolean
   name: hidden
   label: hidden
