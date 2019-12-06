@@ -5,9 +5,13 @@ fields:
 - type: text
   name: layout
   label: layout
+  config:
+    required: true
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: text
   name: categories
   label: categories
@@ -17,6 +21,7 @@ fields:
 - type: file
   name: image
   label: image
+  hidden: true
 - type: boolean
   name: hidden
   label: hidden
