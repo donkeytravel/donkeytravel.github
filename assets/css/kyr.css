@@ -125,6 +125,7 @@ table th {
     border-left:6px solid #ccc!important;
     border-color:#0e6942!important;
     padding: 20px;
+    font-style: italic!important;
 }
 
 .button {
@@ -147,4 +148,20 @@ table th {
 .button {
     background-color:black;
     color:#fff;
+}
+
+/* Wrap image text */
+.img-left {
+    float:left;
+    margin-right:25px;
+    margin-top:10px;
+    margin-bottom:5px;
+    height:210px
+}
+.img-right {
+    float:right;
+    margin-left:25px;
+    margin-top:10px;
+    margin-bottom:5px;
+    height:210px;
 }

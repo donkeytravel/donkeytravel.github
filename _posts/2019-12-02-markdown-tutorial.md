@@ -314,6 +314,22 @@ You can also add a shadow like this `{: .shadow}`
 ![paris][paris]{: width="500px"}{: .shadow}
 
 
+##### Wrap text around image
+
+To wrap text around an `left` aligned image append the follow code like this:
+```
+![wrapimage](/assets/images/Slovenia.jpg){: .img-left}
+```
+![wrapimage](/assets/images/Slovenia.jpg){: .img-left}
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+To wrap text around an `left` aligned image append the follow code like this:
+```
+![wrapimage](/assets/images/Slovenia.jpg){: .img-right}
+```
+![wrapimage](/assets/images/Slovenia.jpg){: .img-right}
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
 Go [back](#index) to index
 
 
@@ -383,6 +399,8 @@ So how do we do spoilers?
 ```
 
 The movie ends <span class="spoiler">This is a spoiler.</span> [^emphasize] 
+
+[^emphasize]: If **Underlines** is turned on, `_this notation_` will render as underlined instead of emphasized 
 
 ### Strong and emphasize
 
@@ -703,7 +721,6 @@ Go [back](#index) to index or [back](#mylink) to my paragraph.
 
 ### Footer Notes
 
-[^emphasize]: If **Underlines** is turned on, `_this notation_` will render as underlined instead of emphasized 
 
 [^under]: If **Underline** is disabled `_this_` will be rendered as *emphasized* instead of being underlined.
 
