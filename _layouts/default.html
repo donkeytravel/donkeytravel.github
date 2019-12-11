@@ -43,6 +43,15 @@
 
   <body class="{% if page.url == "/" %} homefirstpage {% endif %}">
 
+    <!-- scroll to top from|: https://github.com/vfeskov/vanilla-back-to-top -->
+    <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+    <script>addBackToTop({
+      diameter: 56,
+      backgroundColor: 'rgb(255, 82, 82)',
+      //cornerOffset: 100,
+      textColor: '#fff'
+    })</script>
+
     <!-- Navbar -->
     <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
       <div class="container">
